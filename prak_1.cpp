@@ -12,10 +12,10 @@ int main()
     b=0;
     w=' ';
     int n;
-    cout << "Введите размер строки: ";
+    cout << "Vvedite razmer stroki: ";
     cin >> n;
     char A[n];
-    cout << "Введите " << n <<" элементов строки" <<endl;
+    cout << "Vvodim " << n <<" elementov stroki" <<endl;
     for (int i = 0; i < n; ++i) {
         cin >> A[i];
     }
