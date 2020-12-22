@@ -10,10 +10,10 @@ int main()
     y=10000;
     z=10000;
     int n;
-    cout << "Введите размер массива: ";
+    cout << "Vvedite razmer massiva: ";
     cin >> n;
     int A[n];
-    cout << "Введите " << n <<" элементов массива" <<endl;
+    cout << "Vvedite " << n <<" elementov massiva" <<endl;
     for (int i = 0; i < n; ++i) {
         cin >> A[i];
     }
@@ -39,5 +39,5 @@ int main()
             z=A[i];
         }
     }
-    cout << "Минимальные значения в массиве: "<< x << " " << y << " " << z;
+    cout << "Min znachenia v massive: "<< x << " " << y << " " << z;
 }
